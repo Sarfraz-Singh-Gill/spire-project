@@ -1,0 +1,7 @@
+main div.col-10{
+    padding: 30px;
+    background-color: red;
+}
+nav.navbar.navbar-expand-lg.bg-light{
+    border-radius: 7px;
+}
