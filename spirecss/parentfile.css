@@ -1,7 +1,24 @@
 main div.col-10{
     padding: 30px;
-    background-color: red;
+    background-color: #f0eff3;
 }
 nav.navbar.navbar-expand-lg.bg-light{
     border-radius: 7px;
+    background-color: white !important;
+    height: 4rem;
+}
+button.btn.btn-secondary.dropdown-toggle:after {
+    display: none;
+}
+button.btn.btn-secondary.dropdown-toggle {
+    background-color: white;
+    color: black;
+    border: 0;
+    margin-right: 0.7rem;
+}
+button.btn.btn-secondary.dropdown-toggle:hover {
+    background-color: #f0eff3;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
 }
