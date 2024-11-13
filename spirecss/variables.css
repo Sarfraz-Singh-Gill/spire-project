@@ -1,14 +1,34 @@
 .padding-top-2{
     padding-top: 2rem;
 }
+
 :root{
 --purple_color: #6f42c1;
 --orange_color: #fd7e14;
 --green_color: #4caf50;
 --blue_color: #2196f3;
 --red_color:#f44336;
+--lgreen_color:#e1fbe2;
+--lpurple_color:#dfceff;
+--lblue_color:#cbe8ff;
+--lorange_color:#ffe3db;
+--lred_color:#ffe5e4;
 }
-
+.lgreen_color{
+    color: #e1fbe2;
+}
+.lpurple_color{
+    color:#dfceff ;
+}
+.lblue_color{
+    color:#cbe8ff ;
+}
+.lorange_color{
+    color:#ffe3db ;
+}
+.lred_color{
+    color: #ffe5e4;
+}
 .red-color{
     color: #f44336;
 }
@@ -23,5 +43,13 @@
 }
 .blue-color{
     color: #2196f3;
+}
+
+hr {
+    margin-top: 0.4rem;
+    opacity: 0.2;
+}
+h5{
+    color: #5b626b
 }
 
